@@ -13,7 +13,7 @@ import random
 
 def get_night_type():
     """Ask the user what kind of night they want."""
-    print(":sparkle: Night Idea Generator :sparkle:")
+    print("Night Idea Generator")
     print("What kind of night are you planning?")
     print("1 - Friends Night")
     print("2 - Girls Night")
@@ -28,7 +28,8 @@ def get_night_type():
          "3": "date",
          "4": "random",
     }
-   return options.get(choice, "random")
+
+    return options.get(choice, "random")
 
 def get_idea(night_type):
     """Return a random idea based on the night type."""
@@ -37,7 +38,7 @@ def get_idea(night_type):
            "Game night with snacks and card games.",
            "Movie marathon with a fun theme (90s, horror, rom-com).",
            "Potluck dinner where everyone brings a dish.",
-           "DIY taco bar + music + dancing in the living room.".,
+           "DIY taco bar with music and dancing in the living room.",
        ],
           "girls": [
                "At home spa night with face masks and candles.",
@@ -54,7 +55,6 @@ def get_idea(night_type):
     }
 
     if night_type == "random":
-         # Pick from *all* ideas if user chooses random
          all_ideas = ideas["friends"] + ["girls"] + ["date"]
          return random.choice(all_ideas)
     return random.choice(ideas[night_type])
@@ -66,7 +66,7 @@ def main():
 
     print("\nHere's an idea for your night:")
     print(f" {idea}")
-    print("\nHave fun! :sparkle:")
+    print("\nHave fun!")
 
 if __name__ == "__main__":
     main()
@@ -74,3 +74,4 @@ if __name__ == "__main__":
       
 
   
+
