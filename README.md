@@ -1,5 +1,5 @@
 # Python Mini Projects Pack 🐍
-A collection of samll beginner-friendly Python projects that showcase my learning journey, creativity, and problem-solving.
+A collection of small, beginner-friendly Python projects that showcase my learning journey, creativity, and problem-solving.
 
 ## Included Projects
 
