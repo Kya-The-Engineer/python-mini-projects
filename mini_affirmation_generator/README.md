@@ -8,6 +8,7 @@
 1. Affirmations are stored in a dictionary 
 2. A category is selected
 3. One affirmation is randomly chosen and displayed
+
 ***The program organizes affirmations into catergories using a Python dictionary. Each category contains a list of affirmations related to a specific mindset category. When a category is selected, the program uses Python's built-random functionality to choose one affirmation from the corresponding list and display it.***
 ---
 ## ***🧠Skills Used***
