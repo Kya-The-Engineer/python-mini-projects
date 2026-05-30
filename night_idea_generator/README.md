@@ -49,4 +49,3 @@ python3 night_idea_generator.py
  ## 🗂 File Structure
  night_idea_generator/
   ___ night_idea_generator.py
-  ___ README.md
