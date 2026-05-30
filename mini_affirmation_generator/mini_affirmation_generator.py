@@ -35,10 +35,10 @@ def main():
 
     choice = input ("\nEnter your choice: ")
 
-    if choice in affirmations:
-        affirmation = random.choice(affirmations[choice])  
-        print(f"\n Your affirmation:\n{affirmations}")
-
+    choice_map = {str(i): category for i, category in enumerate(affirmations.keys(), start=1}
+    if choice_map in choice_map:
+         affirmation = random.choice(affirmations[choice_map[choice]])
+        print(f"\n Your affirmation:\n{affirmation}")
     else:
         print("\n Invalid choice. Please try again.")
 
