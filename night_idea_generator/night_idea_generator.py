@@ -55,7 +55,7 @@ def get_idea(night_type):
     }
 
     if night_type == "random":
-         all_ideas = ideas["friends"] + ["girls"] + ["date"]
+         all_ideas = ideas["friends"] + ideas["girls"] + ideas["date"]
          return random.choice(all_ideas)
     return random.choice(ideas[night_type])
 
