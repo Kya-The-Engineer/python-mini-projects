@@ -16,7 +16,9 @@
 - Clean and readable code organization
 ---
 ## ***▶️How to Run***
-*From project folder : python3 mini_affirmation_generator*
+- Python 3.9+
+- Run: python3 mini_affirmation_generator/mini_affirmation_generator.py
+
  1. User will be prompted to make a selection from the list of affirmation categories displayed
  2. To select the category, the user will need to type the corresponding number
  3. The program will generate and display one affirmation from the selected category

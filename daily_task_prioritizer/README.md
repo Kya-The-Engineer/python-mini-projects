@@ -16,8 +16,8 @@ You enter tasks one at a time, assign a priority level, and the program sorts ev
 
 
 🚀 **How To Run**
-From project folder:
-python3 daily_task_prioritizer.py
+- Python 3.9+
+- Run: python3  daily_task_prioritizer/daily_task_prioritizer.py
 
 You'll be prompted:
 Task name (or press Enter to finish):

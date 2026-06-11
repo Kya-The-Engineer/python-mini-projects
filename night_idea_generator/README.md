@@ -1,3 +1,4 @@
+
 # 🌙 Night Idea Generator
 
 A fun Python mini-project that generates creative ideas for different types of nights:
@@ -14,10 +15,8 @@ A fun Python mini-project that generates creative ideas for different types of n
 
 
 ## 🛠 How It Works
-1. Run the Python file:
-python3 night_idea_generator.py
-2. Choose a night type (1-4).
-3. Get a randomly selected idea based on your choice.
+- Python3.9+
+- Run: python3 night_idea_generator/night_idea_generator.py
 
 ## 🧠 Skills Used
 -Python functions
@@ -29,6 +28,11 @@ python3 night_idea_generator.py
 -User input handling
 
 ## *Example Output*
+
+-Choose a night type (1-4).
+- Get a randomly selected idea based on your choice.
+
+
  Night Idea Generator
  ___________________
  What kind of night are you planning?
